@@ -2,10 +2,6 @@
 #include <stdlib.h> 
 #include <unistd.h> 
   
-/* Hocam Requirement kısmında yazılanlara göre yaptım, 
-  sizin koyduğunuz ekran görüntüsünde "Trying:" kısmı var ancak yazılanlara göre buna gerek yok, 
-  çünkü kullanıcı zaten parent id'yi tahmin etmek için bir key giriyor ve bu dosyaya yazılıyor, 
-  daha sonra bu yazılan pass dosyadan okunup parent_id ile eşleştiriliyor.*/
 
 int main() 
 { 
